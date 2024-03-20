@@ -32,6 +32,11 @@ select {
     border-radius: 5px;
 }
 
+input[type="email"] {
+    /* Ajout de styles spécifiques pour les e-mails */
+    background-color: #f9f9f9;
+}
+
 button[type="submit"] {
     background-color: #007bff;
     color: #fff;
