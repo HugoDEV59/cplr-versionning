@@ -8,12 +8,26 @@
 </head>
 <body>
     <form id="monFormulaire">
-        <label for="name">Nom:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
+        <label for="type">Type de demande:</label><br>
+        <select id="type" name="type">
+            <option value="technique">Technique</option>
+            <option value="facturation">Facturation</option>
+            <option value="devis">Devis</option>
+            <option value="autre">Autre</option>
+        </select><br>
+
+        <label for="nom">Nom:</label><br>
+        <input type="text" id="nom" name="nom"><br>
+
+        <label for="prenom">Prénom:</label><br>
+        <input type="text" id="prenom" name="prenom"><br>
+
+        <label for="telephone">Numéro de téléphone:</label><br>
+        <input type="tel" id="telephone" name="telephone"><br>
+
         <label for="message">Message:</label><br>
         <textarea id="message" name="message"></textarea><br>
+
         <button type="submit">Envoyer</button>
     </form>
 
