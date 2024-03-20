@@ -4,7 +4,7 @@ document.getElementById("monFormulaire").addEventListener("submit", function(eve
     var formData = new FormData(this);
 
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://n8n.oriatec.fr/webhook/cplr-versionning", true);
+    xhr.open("POST", "https://hook.eu2.make.com/s1t8hwwhevx9mxnpwtm6pvp257d1lgax", true);
     xhr.onreadystatechange = function () {
         if (xhr.readyState === XMLHttpRequest.DONE) {
             if (xhr.status === 200) {
